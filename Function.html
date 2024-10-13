@@ -12,17 +12,22 @@
         <button onclick="myfunction(5)">Execute js code</button>
        
        <script>
-            function myfunction(x, y){
-                if (y=== undefined){
-                      y = 2
-                }
-                document.write(x*y);
-            }
-            var result = function (a, b){
-                return a*b ;
-                document.write(result(a,b))
-            }
        
+
+
+        
+        let a = 10;
+
+        
+        let b = 20;
+
+        
+        function multiply(a, b) {
+            return a * b;
+        }
+
+        
+        document.write("After multiplication : " + multiply(a, b));
         </script>
     </body>
 </html>
